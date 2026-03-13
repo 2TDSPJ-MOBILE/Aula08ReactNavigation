@@ -12,8 +12,7 @@ export default function TabRoutes(){
             <Tab.Screen 
                 name="home"
                 component={Home}
-                options={{tabBarIcon:()=><Feather name="home" color="green" size={30}/>,
-                tabBarLabel:"Inicio",tabBarLabelStyle:{fontSize:20}}}
+                options={{tabBarIcon:()=><Feather name="home" color="green" size={30}/>,tabBarLabel:"Inicio",}}
 
             />
             <Tab.Screen name="login" component={Login}
